@@ -1,0 +1,54 @@
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 30px;
+    }
+    .container {
+        max-width: 500px;
+        margin: 30px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    form {
+        display: inline-block;
+        text-align: left;
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .order-button {
+        padding: 8px 16px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .order-button:hover {
+        background-color: #45a049;
+    }
+    
+
+    input[type="text"],
+    select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+
+    input[type="checkbox"] {
+        margin-right: 5px;
+    }
+
+    #smoothieOutput {
+        margin-top: 30px;
+    }
